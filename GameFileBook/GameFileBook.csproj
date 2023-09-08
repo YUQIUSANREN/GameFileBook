@@ -1,10 +1,47 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFrameworks>net6.0-windows;</TargetFrameworks>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Prefer32Bit Condition="'$(TargetFramework)' == 'net472'">true</Prefer32Bit>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
     <UseWPF>true</UseWPF>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationManifest>App.manifest</ApplicationManifest>
   </PropertyGroup>
-
+  <ItemGroup Condition="'$(TargetFramework)'=='net472'">
+    <Reference Include="PresentationFramework.Aero2" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <!--<Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>-->
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\*.jpg" />
+    <Resource Include="Resources\*.png" />
+    <Resource Include="ScreenGrabFromGoogle.gif" />
+    <Resource Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BluwolfIcons" Version="1.0.1">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.4" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="VirtualizingWrapPanel" Version="1.5.7" />
+    <PackageReference Include="ShowMeTheXAML" Version="2.0.0" />
+    <PackageReference Include="ShowMeTheXAML.AvalonEdit" Version="2.0.0" />
+    <PackageReference Include="ShowMeTheXAML.MSBuild" Version="2.0.0" />
+  </ItemGroup>
 </Project>

@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "i6p3MvrG4N88J97kUfjOyP0thFLrFthcXCM6ziG1N4j5nm7JgnCifh67fGl3NXHF9+s2ZxKp/ETrNPyGJCFJUQ==",
+  "dgSpecHash": "3wmnehlaCoPntGL4g5PuocbBPpITRPyIqpc+meZOHvQL27OUzBuuKy3zMQ0OUa0YfocQ3m4JVFfimjAyNq8fKQ==",
   "success": true,
   "projectFilePath": "C:\\Project\\GameFileBook\\Code\\GameFileBook\\GameFileBook.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\bluwolficons\\1.0.1\\bluwolficons.1.0.1.nupkg.sha512",
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\showmethexaml\\2.0.0\\showmethexaml.2.0.0.nupkg.sha512",
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\showmethexaml.avalonedit\\2.0.0\\showmethexaml.avalonedit.2.0.0.nupkg.sha512",
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\showmethexaml.msbuild\\2.0.0\\showmethexaml.msbuild.2.0.0.nupkg.sha512",
+    "C:\\Users\\贲陈飞\\.nuget\\packages\\virtualizingwrappanel\\1.5.7\\virtualizingwrappanel.1.5.7.nupkg.sha512"
+  ],
   "logs": []
 }

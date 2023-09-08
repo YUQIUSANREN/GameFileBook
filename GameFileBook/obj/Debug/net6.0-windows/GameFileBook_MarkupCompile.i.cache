@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Project\GameFileBook\Code\GameFileBook\App.xaml
-11407045341
+8-1623129584
 
-565280922
-194726069201
-MainWindow.xaml;
+39-540598703
+211502686717
+Buttons.xaml;Domain\DocumentationLinks.xaml;Domain\SampleMessageDialog.xaml;Home.xaml;MainWindow.xaml;Palette.xaml;PaletteSelector.xaml;ThemeSettings.xaml;
 
 False
 
