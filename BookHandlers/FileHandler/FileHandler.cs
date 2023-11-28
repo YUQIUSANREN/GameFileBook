@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookHandlers.FileHandler
 {
-    public class FileHandler
+    public class FileHandler : BaseHandler
     {
     }
 }

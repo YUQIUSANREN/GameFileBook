@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Configuration;
 using System.Windows.Data;
+using GameFileBook.Views;
 using MaterialDesignThemes.Wpf;
 using MaterialDesignThemes.Wpf.Transitions;
 
@@ -110,6 +111,19 @@ public class MainWindowViewModel : ViewModelBase
     {
         if (snackbarMessageQueue is null)
             throw new ArgumentNullException(nameof(snackbarMessageQueue));
+
+        yield return new DemoItem(
+            "Files",
+            typeof(Files),
+            new[]
+            {
+                DocumentationLink.WikiLink("Button-Styles", "Buttons"),
+                DocumentationLink.DemoPageLink<Files>("File Manage"),
+                DocumentationLink.DemoPageLink<FilesViewModel>("File View Model", "Domain"),
+                DocumentationLink.StyleLink("Button"),
+                DocumentationLink.StyleLink("PopupBox"),
+                DocumentationLink.ApiLink<PopupBox>()
+            });
 
         yield return new DemoItem(
             "Games",

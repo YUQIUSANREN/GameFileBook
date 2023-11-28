@@ -1,0 +1,12 @@
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\BookHandlers.csproj.AssemblyReference.cache
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\BookHandlers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\BookHandlers.AssemblyInfoInputs.cache
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\BookHandlers.AssemblyInfo.cs
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\BookHandlers.csproj.CoreCompileInputs.cache
+C:\Project\GameFileBook\Code\BookHandlers\bin\Debug\net6.0\BookHandlers.deps.json
+C:\Project\GameFileBook\Code\BookHandlers\bin\Debug\net6.0\BookHandlers.dll
+C:\Project\GameFileBook\Code\BookHandlers\bin\Debug\net6.0\BookHandlers.pdb
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\BookHandlers.dll
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\refint\BookHandlers.dll
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\BookHandlers.pdb
+C:\Project\GameFileBook\Code\BookHandlers\obj\Debug\net6.0\ref\BookHandlers.dll
