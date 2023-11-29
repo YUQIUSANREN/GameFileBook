@@ -179,7 +179,7 @@ namespace BookHandlers.FileHandler.Win32
         /// </summary>
         /// <param name="ptr"></param>
         /// <param name="size"></param>
-        [DllImport(KERNEL32DLL)]
+        [DllImport(KERNEL32DLL,EntryPoint = "RtlZeroMemory", SetLastError = false)]
         public static extern void ZeroMemory(IntPtr ptr, int size);
 
         [DllImport(USER32DLL, CharSet = CharSet.Auto)]
