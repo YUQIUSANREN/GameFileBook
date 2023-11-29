@@ -9,8 +9,7 @@ namespace HandlerTest
         public void TestMethod1()
         {
             USNHandler usn = new USNHandler();
-            var result = usn.GetFileList(usn.Drives.FirstOrDefault()!);
-            Assert.Fail();
+            var result = usn.GetFileList(usn.DrivesNotContainC.FirstOrDefault()!);
         }
     }
 }

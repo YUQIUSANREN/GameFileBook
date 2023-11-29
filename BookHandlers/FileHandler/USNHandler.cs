@@ -14,7 +14,8 @@ namespace BookHandlers.FileHandler
     public class USNHandler
     {
         //获取所有NTFS磁盘
-        public List<DriveInfo> Drives { get; } = FileQueryEngine.GetReadyNtfsDrives().Where(a => !a.Name.Contains("C")).ToList();
+        public List<DriveInfo> Drives { get; } = FileQueryEngine.GetReadyNtfsDrives().ToList();
+        public List<DriveInfo> DrivesNotContainC { get; } = FileQueryEngine.GetReadyNtfsDrives().Where(a => !a.Name.Contains("C")).ToList();
         private List<UsnEntry> usnData = new List<UsnEntry>();
         public List<UsnEntry> GetFileList(DriveInfo driver)
         {

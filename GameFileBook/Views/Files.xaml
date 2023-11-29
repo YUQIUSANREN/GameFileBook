@@ -28,7 +28,6 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
-            <!--<RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -39,10 +38,16 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />-->
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Button Grid.Row="0" x:Name="GetFileListBtn" Click="GetFile_Click">解析磁盘文件</Button>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" x:Name="GetFileListBtn" Click="GetFile_Click">解析磁盘文件</Button>
+        <Button Grid.Row="0" Grid.Column="1" Click="Clear_Click">清空</Button>
         <!--<TextBlock x:Name="FileBox"/>-->
-        <TextBox Grid.Row="1" x:Name="FileBox"></TextBox>
+        <TextBox Grid.Row="1" Grid.ColumnSpan="2" x:Name="FileBox"></TextBox>
     </Grid>
 </UserControl>
